@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>adaschino | Anime Archive</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #090a0f;
+      color: #e9e5ed;
+      font-family: 'Noto Sans JP', sans-serif;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: min(900px, 90%);
+      margin: auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0;
+      border-bottom: 1px solid #292633;
+    }
+
+    .logo {
+      letter-spacing: 4px;
+      font-size: 13px;
+      color: #d5b8d9;
+    }
+
+    .nav {
+      color: #aaa3b4;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      padding: 110px 0 90px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at 50% 45%, #35243d 0%, transparent 65%);
+    }
+
+    .japanese {
+      color: #c49bcf;
+      font-size: 13px;
+      letter-spacing: 8px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(55px, 10vw, 95px);
+      font-weight: 400;
+      letter-spacing: 5px;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      color: #aaa3b4;
+      font-size: 13px;
+      letter-spacing: 3px;
+      margin-bottom: 35px;
+    }
+
+    .description {
+      color: #c2bac9;
+      font-size: 14px;
+      line-height: 2;
+      max-width: 500px;
+      margin: 0 auto 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 30px;
+      border: 1px solid #b68cc4;
+      color: #e9d7ef;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 2px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #b68cc4;
+      color: #090a0f;
+    }
+
+    .divider {
+      width: 55px;
+      height: 1px;
+      background: #b68cc4;
+      margin: 0 auto 65px;
+    }
+
+    .section {
+      text-align: center;
+      padding-bottom: 80px;
+    }
+
+    .section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 36px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+
+    .section p {
+      color: #aaa3b4;
+      font-size: 13px;
+      line-height: 2;
+    }
+
+    .profile-card {
+      margin: 30px auto 0;
+      padding: 30px;
+      max-width: 500px;
+      border: 1px solid #332b3b;
+      background: #111019;
+    }
+
+    .profile-name {
+      color: #d5b8d9;
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .profile-link {
+      color: #c49bcf;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .profile-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid #292633;
+      padding: 25px 0;
+      text-align: center;
+      color: #777080;
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 80px 0 65px;
+      }
+
+      header {
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="logo">ADASCHINO</div>
+      <div class="nav">アニメ · ARCHIVE</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="japanese">物語の中へ</div>
+
+        <h1>Anime Archive</h1>
+
+        <div class="subtitle">
+          A LITTLE WORLD OF MY OWN
+        </div>
+
+        <p class="description">
+          Somewhere between fictional worlds,
+          unforgettable characters, and stories
+          that stay long after the credits roll.
+          Welcome to my anime archive.
+        </p>
+
+        <a
+          class="button"
+          href="https://myanimelist.net/profile/adaschino"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          EXPLORE MY ANIME LIST ↗
+        </a>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="section">
+        <h2>My Anime Journey</h2>
+
+        <p>
+          Every story leaves something behind.<br>
+          Here's where mine are collected.
+        </p>
+
+        <div class="profile-card">
+          <div class="profile-name">adaschino</div>
+
+          <p>MyAnimeList Profile</p>
+
+          <br>
+
+          <a
+            class="profile-link"
+            href="https://myanimelist.net/profile/adaschino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit MyAnimeList ↗
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 ADASCHINO · アニメの世界
+    </footer>
+
+  </div>
+
+</body>
+</html>
